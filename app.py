@@ -279,7 +279,7 @@ workflow.node(
 
 workflow.node(
     "C",
-    "Booked Trades\n(with seeded breaks)",
+    "Booked Trades\n(with intentional errors)",
     fillcolor="#dbeafe",
     fontcolor="#0f172a",
     color="#93c5fd",

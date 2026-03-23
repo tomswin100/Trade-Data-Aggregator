@@ -57,7 +57,7 @@ BLUE_CATEGORICAL_RANGE = [
 ]
 
 st.set_page_config(
-    page_title="Trade Support Dashboard — Trade Exception Monitor",
+    page_title="Trade Support Dashboard — Institutional Trade Support Workflow Demo",
     page_icon="📈",
     layout="wide",
 )

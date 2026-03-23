@@ -135,7 +135,7 @@ def render_sidebar_nav(current_page):
             box-shadow: 0 10px 24px rgba(15, 23, 42, 0.05);
         ">
             <div style="font-size: 0.78rem; color: #475569; text-transform: uppercase; letter-spacing: 0.12em;">
-                Trade Data Aggregator
+                Institutional Trade Support Workflow Demo
             </div>
             <div style="font-size: 1.08rem; font-weight: 700; color: #0f172a; margin-top: 0.22rem;">
                 Demo Navigation

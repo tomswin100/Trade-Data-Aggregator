@@ -42,7 +42,7 @@ os.makedirs(OUTPUT_DIR, exist_ok=True)
 # PAGE CONFIG
 # =========================
 st.set_page_config(
-    page_title="Trade Data Aggregator — Demo",
+    page_title="Institutional Trade Support Workflow Demo",
     page_icon="📊",
     layout="wide",
 )
@@ -196,7 +196,7 @@ st.markdown(
         <div class="hero-eyebrow-wrap">
             <div class="hero-eyebrow">Post-Trade Controls Demo</div>
         </div>
-        <div class="hero-title">Trade Data Aggregator — Demo</div>
+        <div class="hero-title">Institutional Trade Support Workflow Demo</div>
         <p class="hero-copy">
             This workflow helps trade support teams identify where executed trades and booked trades do not align.
             It surfaces exceptions such as missing bookings, mismatched quantities, pricing discrepancies, and account-reference issues in a format that can be monitored and investigated quickly.

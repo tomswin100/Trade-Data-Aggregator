@@ -1,4 +1,4 @@
-# Trade Data Aggregator
+# Institutional Trade Support Workflow Demo
 
 A Streamlit-based demo application that emulates equity trade data, detects booking errors and reconciliation breaks, and supports lightweight exception reporting through a simple Python workflow.
 
@@ -24,7 +24,7 @@ The main UI is a Streamlit workflow page with a wide layout and five numbered wo
 
 When the app loads, it shows:
 
-- The title: **Trade Data Aggregator - Demo**
+- The title: **Institutional Trade Support Workflow Demo**
 - A short description of the tool
 - An "About the demo dataset" section explaining that all files are synthetic
 - An info banner indicating the app runs in demo mode
@@ -429,7 +429,7 @@ These scripts print summaries to the console and may also write output files int
 
 ## Summary
 
-Trade Data Aggregator is currently a working Streamlit demo that:
+Institutional Trade Support Workflow Demo is currently a working Streamlit demo that:
 
 - Generates synthetic equity trade datasets
 - Validates core data quality issues

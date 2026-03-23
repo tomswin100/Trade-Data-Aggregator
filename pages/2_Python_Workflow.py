@@ -48,7 +48,7 @@ def read_script(relative_path):
 
 
 st.set_page_config(
-    page_title="Python Workflow — Trade Exception Monitor",
+    page_title="Python Workflow — Institutional Trade Support Workflow Demo",
     page_icon="🐍",
     layout="wide",
 )

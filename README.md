@@ -1,4 +1,4 @@
-# Trade Exception Monitor
+# Trade Data Aggregator
 
 A Streamlit-based demo application that emulates equity trade data, detects booking errors and reconciliation breaks, and supports lightweight exception reporting through a simple Python workflow.
 
@@ -24,7 +24,7 @@ The main UI is a Streamlit workflow page with a wide layout and five numbered wo
 
 When the app loads, it shows:
 
-- The title: **Trade Exception Monitor - Demo**
+- The title: **Trade Data Aggregator - Demo**
 - A short description of the tool
 - An "About the demo dataset" section explaining that all files are synthetic
 - An info banner indicating the app runs in demo mode
@@ -38,7 +38,7 @@ When clicked, the app:
 
 - Generates a fresh accounts reference dataset
 - Generates clean executed trades
-- Generates booked trades with injected operational issues
+- Generates booked trades with intentional sample errors
 - Saves CSV files into the `data/` folder
 - Resets any prior run results in session state
 - Stores in-memory previews so they can be shown in the UI immediately
@@ -429,7 +429,7 @@ These scripts print summaries to the console and may also write output files int
 
 ## Summary
 
-Trade Exception Monitor is currently a working Streamlit demo that:
+Trade Data Aggregator is currently a working Streamlit demo that:
 
 - Generates synthetic equity trade datasets
 - Validates core data quality issues
